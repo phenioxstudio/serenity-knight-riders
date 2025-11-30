@@ -1,0 +1,1 @@
+Place your player images (e.g. harsh.jpg, yash.jpg) in this assets folder. Replace this file after adding images.

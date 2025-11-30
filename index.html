@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Serenity Knight Riders - Official</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-wrap">
+      <img src="assets/logo.png" alt="Serenity Knight Riders logo" id="team-logo">
+      <div>
+        <h1>Serenity Knight Riders</h1>
+        <p class="tag">Built for Glory · Ready for Battle</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#squad">Squad</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#stats">Stats</a>
+      <a href="#points">Points Table</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>The Knights Have Assembled</h2>
+      <p>Official site for Serenity Knight Riders — squad, fixtures, live stats and points table for the tournament.</p>
+    </section>
+
+    <section id="squad" class="panel">
+      <div class="panel-head">
+        <h3>Squad</h3>
+        <input id="search" placeholder="Search player or role..." />
+      </div>
+      <div id="players" class="grid"></div>
+    </section>
+
+    <section id="schedule" class="panel">
+      <h3>Schedule</h3>
+      <div id="schedule-table"></div>
+    </section>
+
+    <section id="stats" class="panel">
+      <h3>Player Stats</h3>
+      <div id="stats-grid" class="grid"></div>
+    </section>
+
+    <section id="points" class="panel">
+      <h3>Points Table</h3>
+      <div id="points-table"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Follow on Instagram: <a href="https://instagram.com/Serenity_Knight_Riders" target="_blank">@Serenity_Knight_Riders</a></p>
+    <p>Built for Glory · Ready for Battle</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
